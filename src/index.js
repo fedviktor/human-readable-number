@@ -26,6 +26,7 @@ module.exports = function toReadable (number) {
     } 
     else if (number<=999&&number>100&&wholeNumberTen!=0) {
         return `${zero[Math.floor(number/100)]} hundred ${ten[(Math.floor(number/10)%10)]} ${zero[wholeNumberTen]}`
-    } 
+    }    
+    
    
 }
